@@ -1,0 +1,156 @@
+
+:root{
+    --header-font: 'Roboto', sans-serif;
+    --search-font: arial,sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: var(--search-font);
+    
+}
+
+html{
+    font-size: 62.5%;
+    /* max-width: 120rem; */
+    margin: 0 auto;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 16px;
+    /* background-color: ; */
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2rem;
+}
+
+.nav a{
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    font-family: var(--header-font);
+    margin-left: 1rem;
+    font-size: 1.3rem;
+}
+
+.nav span{
+    margin-left: 2rem;
+    cursor: pointer;
+}
+.user-img{
+    width: 3rem;
+    border-radius: 50%;
+    margin-left: 2rem;
+    cursor: pointer;
+
+}
+
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    margin-top: 15rem;
+    max-width: 30rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+.buscador{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.1px solid rgb(221, 221, 221);
+    border-radius: 15rem;
+    height: 4.5rem;
+}
+
+.buscador input{
+    width: 60rem;
+    border: none;
+    height: 100%;
+    outline: none;
+    font-size: 1.5rem;
+}
+
+
+
+.buscador span{
+    margin: 0 2rem;
+    cursor: pointer;
+
+}
+
+.buscador img{
+    max-width: 2rem;
+    max-height: 2rem;
+    margin: 0 2rem;
+    cursor: pointer;
+
+}
+
+.botones-buscar{
+    display: flex;
+    gap: 3rem;
+    margin-top: 3rem;
+    
+}
+
+.botones-buscar a{
+    font-size: 1.4rem;
+    background-color: rgb(247, 247, 247);
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    color: rgb(124, 124, 124);
+
+    font-family: var(--search-font);
+    border-radius: 0.5rem;
+}
+
+
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(247, 247, 247);
+    padding: 2.5rem 0;
+}
+
+.div1 a, .div2 a{
+    margin: 0 0.5rem;
+    font-family: var(--search-font);
+    text-decoration: none;
+    color: rgb(124, 124, 124);
+
+}
+
+footer .div1{
+ margin-left: 2rem;
+}
+
+footer .div2{
+margin-right: 2rem;
+
+}
